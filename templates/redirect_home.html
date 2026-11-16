@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ config.title }}</title>
+    <meta name="description" content="{{ config.description }}">
+    {# link previews read the root URL too, and most don't follow redirects #}
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="{{ config.title }}">
+    <meta property="og:title" content="OpenLauncher for E-Sys | {{ config.title }}">
+    <meta property="og:description" content="{{ config.description }}">
+    <meta property="og:url" content="{{ get_url(path="home/") | safe }}">
+    <meta property="og:image" content="{{ get_url(path="home/openlauncher-v3.0.0-beta.1.png") | safe }}">
+    <meta property="og:image:width" content="1120">
+    <meta property="og:image:height" content="811">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="{{ get_url(path="home/") | safe }}">
+    <meta http-equiv="refresh" content="0; url={{ get_url(path="home/") | safe }}">
+</head>
+<body>
+    <a href="{{ get_url(path="home/") | safe }}">Continue to {{ config.title }}</a>
+</body>
+</html>
