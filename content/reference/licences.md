@@ -9,6 +9,5 @@ weight = 3
 - **Files in `definitions\`** keep the licence stated in them; otherwise CC0. The public community cheat sheets are
   GPL-3.0 and ship unchanged.
 
-Open CAFD Map is not affiliated with BMW. The project doesn't ship psdzdata, decrypted CAFDs or a coding database:
-those are built locally from your own E-Sys and psdzdata and stay in your `workspace\` folder. Contributed files in
-`definitions\` come from their contributors. Coding a car is at your own risk.
+Open CAFD Map is not affiliated with BMW. Contributed files in `definitions\` come from their contributors. Coding a car
+is at your own risk.
