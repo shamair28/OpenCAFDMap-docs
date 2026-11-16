@@ -3,7 +3,7 @@ title = "v3 preview"
 weight = 3
 +++
 
-OpenLauncher v3 is in preview: a new dark design and **Launch options**. It's published as a GitHub
+OpenLauncher v3 is in preview: a new dark design, **Launch options** and the [FA Helper](@/tools/fa-helper/index.md). It's published as a GitHub
 [pre-release](https://github.com/shamair28/OpenCAFDMap/releases), so normal updates and setup keep installing the
 stable release until you choose to try it.
 
