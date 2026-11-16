@@ -17,5 +17,5 @@ theme = "book"
 highlight_code = false
 
 [extra]
-book_number_chapters = true
+book_number_chapters = false
 book_only_current_section_pages = false
