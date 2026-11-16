@@ -29,7 +29,7 @@ next E-Sys start.
 |---|---|
 | **Name Injection** | Names and value labels in the CAF / FDL trees and the vehicle profile |
 | **Build labels on demand** | New CAFD versions are labelled in the background (needs Name Injection) |
-| **Additional Utilities** | Compare NCD and Cheat Sheet in E-Sys's navigation bar |
+| **Additional Utilities** | Compare NCD, Cheat Sheet and FA Helper in E-Sys's navigation bar |
 | **FA / SVT auto-backup** | Copies every FA / SVT read from the car to `FA\FABak` and `SVT\SVTBak` |
 | **Clean boot** | Troubleshooting: starts your `E-Sys.bat` exactly as it is, with none of OpenLauncher's features |
 
