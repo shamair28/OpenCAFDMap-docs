@@ -1,10 +1,18 @@
 {% extends "book/templates/index.html" %}
 
-{# The book theme's layout, plus a dark stylesheet (sass/dark.scss) and link-preview tags (OpenGraph / Twitter). #}
+{# The book theme's layout, plus a dark stylesheet (sass/dark.scss), link-preview tags (OpenGraph / Twitter)
+   and a Ko-fi link pinned to the bottom of the sidebar. #}
 {% block css %}
     <link rel="stylesheet" href="{{ get_url(path="book.css") | safe }}">
     <link rel="stylesheet" href="{{ get_url(path="dark.css") | safe }}">
 {% endblock css %}
+
+{% block after_menu %}
+    <a class="menu-kofi" href="https://ko-fi.com/shamair" target="_blank" rel="noopener" title="Completely optional: every part of OpenLauncher is free and always will be">
+        <span class="kofi">Gas is expensive</span>
+        <small>Top up the tank on Ko-fi</small>
+    </a>
+{% endblock after_menu %}
 
 {% block extra_head %}
     <meta name="theme-color" content="#121214">

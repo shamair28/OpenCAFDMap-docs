@@ -59,4 +59,8 @@ OpenLauncher doesn't try to be one.
 
 OpenLauncher is free. If someone sold it to you, ask for your money back and grab it from GitHub.
 
+Gas, sadly, isn't. If OpenLauncher saved you a trip to the dealer,
+<a class="kofi" href="https://ko-fi.com/shamair">top up the tank on Ko-fi</a>. It's completely optional:
+every part of OpenLauncher is free and will stay that way, with no paid tier, locked features or nag screens.
+
 Not affiliated with BMW. Your psdzdata and coding data stay on your PC. Code at your own risk.
