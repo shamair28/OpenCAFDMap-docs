@@ -5,6 +5,8 @@
     <meta name="color-scheme" content="dark">
     <style>html, body { background: #121214; color: #ececf1; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; } a { color: #ff6b75; }</style>
     <title>{{ config.title }}</title>
+    <link rel="icon" href="{{ get_url(path="favicon.ico") | safe }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ get_url(path="favicon.png") | safe }}" sizes="256x256">
     <meta name="description" content="{{ config.description }}">
     {# link previews read the root URL too, and most don't follow redirects #}
     <meta property="og:type" content="website">

@@ -1,7 +1,8 @@
 {% extends "book/templates/index.html" %}
 
-{# The book theme's layout, plus a dark stylesheet (sass/dark.scss), link-preview tags (OpenGraph / Twitter)
-   and a Ko-fi link pinned to the bottom of the sidebar. #}
+{# The book theme's layout, plus a dark stylesheet (sass/dark.scss), the OpenLauncher icon as favicon (static/,
+   from OpenCAFDMap's assets/openlauncher.ico), link-preview tags (OpenGraph / Twitter) and a Ko-fi link pinned
+   to the bottom of the sidebar. #}
 {% block css %}
     <link rel="stylesheet" href="{{ get_url(path="book.css") | safe }}">
     <link rel="stylesheet" href="{{ get_url(path="dark.css") | safe }}">
@@ -16,6 +17,9 @@
 
 {% block extra_head %}
     <meta name="theme-color" content="#121214">
+    <link rel="icon" href="{{ get_url(path="favicon.ico") | safe }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ get_url(path="favicon.png") | safe }}" sizes="256x256">
+    <link rel="apple-touch-icon" href="{{ get_url(path="favicon.png") | safe }}">
     {% if page %}{% set og_title = page.title %}{% elif section and section.title %}{% set og_title = section.title %}{% else %}{% set og_title = config.title %}{% endif %}
     {% if page and page.description %}{% set og_desc = page.description %}{% else %}{% set og_desc = config.description %}{% endif %}
     {% set og_image = get_url(path="home/openlauncher-v3.0.0-beta.1.png") %}
