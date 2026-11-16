@@ -15,6 +15,14 @@ It also adds a few quality-of-life features, all accessible from inside E-Sys:
 
 Where the database falls short, names and parameters are dynamically calculated to fill in the gaps.
 
+![OpenLauncher v2.3.4: paths, definitions, tools, folders and updates in one window](openlauncher-v2.3.4.png)
+
+*OpenLauncher v2.3.4 (current release)*
+
+![OpenLauncher v3.0.0-beta.1: dark theme with a sidebar, the Launch card, status cards, Definitions and Updates](openlauncher-v3.0.0-beta.1.png)
+
+*OpenLauncher v3.0.0-beta.1 ([preview](@/updating/v3-preview.md))*
+
 [Download OpenLauncher](https://github.com/shamair28/OpenCAFDMap/releases/latest) ·
 [Getting started](@/getting-started/_index.md) ·
 [GitHub](https://github.com/shamair28/OpenCAFDMap)
