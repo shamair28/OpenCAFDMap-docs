@@ -4,17 +4,16 @@ weight = 1
 sort_by = "weight"
 +++
 
-**OpenLauncher** is a free E-Sys launcher that puts the names back. Open a CAFD and the FDL editor shows proper
-function and value names again instead of a wall of dots, even on the latest psdzdata.
+**OpenLauncher** is a free launcher for modern versions of E-Sys. Its database has been brought up to date to cover
+most G- and F-chassis coding definitions and parameters, along with FA / VO option codes.
 
-You also get:
+It also adds a few quality-of-life features, all accessible from inside E-Sys:
 
-- Cheat sheets alongside the FDL editor
-- NCD compare
-- Automatic FA and SVT backups
-- A BimmerCode backup editor
+- **Compare NCD**: two NCDs side by side, with the differences highlighted
+- **Cheat Sheet**: cheat sheets right next to the FDL editor
+- **FA / VO and SVT auto-backup**: every FA and SVT you read from the car is saved automatically
 
-It's open source, and the names are community-driven, so it keeps getting better as more people chip in.
+Where the database falls short, names and parameters are dynamically calculated to fill in the gaps.
 
 [Download OpenLauncher](https://github.com/shamair28/OpenCAFDMap/releases/latest) ·
 [Getting started](@/getting-started/_index.md) ·
