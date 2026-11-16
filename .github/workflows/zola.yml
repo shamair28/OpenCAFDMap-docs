@@ -1,0 +1,23 @@
+name: Zola on GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Publish site
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - name: Build and deploy to the gh-pages branch
+        uses: shalzz/zola-deploy-action@v0.18.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

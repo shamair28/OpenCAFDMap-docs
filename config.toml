@@ -1,0 +1,21 @@
+# The URL the site will be built for
+base_url = "https://shamair28.github.io/OpenCAFDMap-docs"
+
+title = "Open CAFD Map"
+description = "OpenLauncher and Open CAFD Map: readable coding names in E-Sys, built from your own psdzdata."
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Search box in the theme's header
+build_search_index = true
+
+# Theme (getzola/book, pinned as a git submodule)
+theme = "book"
+
+[markdown]
+highlight_code = false
+
+[extra]
+book_number_chapters = true
+book_only_current_section_pages = false
