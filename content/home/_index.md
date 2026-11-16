@@ -14,6 +14,8 @@ It also adds a few quality-of-life features, all accessible from inside E-Sys:
 - **Compare NCD**: two NCDs side by side, with the differences highlighted
 - **Cheat Sheet**: cheat sheets right next to the FDL editor
 - **FA / VO and SVT auto-backup**: every FA and SVT you read from the car is saved automatically
+- **[FA Helper](@/tools/fa-helper/index.md)** (v3 preview): edit the vehicle order with every option checked against
+  the type key, conflicts and the CAFDs your psdzdata has
 
 Where the database falls short, names and parameters are dynamically calculated to fill in the gaps.
 
