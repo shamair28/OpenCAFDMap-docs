@@ -1,7 +1,13 @@
 {% extends "book/templates/index.html" %}
 
-{# The book theme's layout, plus link-preview tags (OpenGraph / Twitter) for Bimmerpost, Reddit, Discord, ... #}
+{# The book theme's layout, plus a dark stylesheet (sass/dark.scss) and link-preview tags (OpenGraph / Twitter). #}
+{% block css %}
+    <link rel="stylesheet" href="{{ get_url(path="book.css") | safe }}">
+    <link rel="stylesheet" href="{{ get_url(path="dark.css") | safe }}">
+{% endblock css %}
+
 {% block extra_head %}
+    <meta name="theme-color" content="#121214">
     {% if page %}{% set og_title = page.title %}{% elif section and section.title %}{% set og_title = section.title %}{% else %}{% set og_title = config.title %}{% endif %}
     {% if page and page.description %}{% set og_desc = page.description %}{% else %}{% set og_desc = config.description %}{% endif %}
     {% set og_image = get_url(path="home/openlauncher-v3.0.0-beta.1.png") %}

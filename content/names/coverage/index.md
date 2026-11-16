@@ -3,7 +3,7 @@ title = "Coverage"
 weight = 1
 +++
 
-![Coding names by chassis: every CAFD is named, with verified BMW names where they exist and dynamically calculated names for the rest](coverage-light.svg)
+![Coding names by chassis: every CAFD is named, with verified BMW names where they exist and dynamically calculated names for the rest](coverage.svg)
 
 Every CAFD is named. BMW's untrimmed names cover about 149,000 functions, 274,000 values and 5,400 groups across 164
 CAFD ids, for G- and F-chassis ECUs. For G020 and F030, about 89% of functions across every CAFD version carry these

@@ -17,8 +17,8 @@ It also adds a few quality-of-life features, all accessible from inside E-Sys:
 
 Where the database falls short, names and parameters are dynamically calculated to fill in the gaps.
 
-<div style="border-left: 4px solid #2e9e5b; background: #eefaf2; padding: 12px 16px; margin: 1.2em 0; border-radius: 0 4px 4px 0;">
-<strong style="color: #1d7a43;">Compatibility</strong><br>
+<div style="border-left: 4px solid #2e9e5b; background: #13261b; padding: 12px 16px; margin: 1.2em 0; border-radius: 0 4px 4px 0;">
+<strong style="color: #4fd18a;">Compatibility</strong><br>
 Tested with <strong>E-Sys 25.10</strong> and <strong>E-Sys 3.35.3</strong> on Windows, with Python 3.10 or newer.
 It <strong>should</strong> work on all Java 8 and Java 11 builds of E-Sys (<a href="../e-sys/versions/">check the version list</a>),
 but universal compatibility hasn't been guaranteed yet.

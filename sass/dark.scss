@@ -1,0 +1,152 @@
+// Dark look for the book theme, loaded after book.css (templates/index.html).
+// Same palette as OpenLauncher v3: near-black surfaces, light text, red accents.
+
+$bg: #121214;        // page
+$side: #0c0c0e;      // sidebar
+$card: #1b1b1f;      // inputs, table headers, code
+$card2: #232328;
+$border: #2c2c33;
+$text: #ececf1;
+$muted: #9b9ba7;
+$faint: #6b6b76;
+$accent: #e1323f;
+$link: #ff6b75;      // red, light enough to read on $bg
+$link-hi: #ff9aa1;
+
+:root {
+  color-scheme: dark;  // dark scrollbars and form controls
+}
+
+html, body {
+  background: $bg;
+  color: $text;
+}
+
+// sidebar
+.menu {
+  color: $text;
+  background: $side;
+  border-right: 1px solid $border;
+
+  ul a {
+    color: #c8c8d0;
+
+    &:hover {
+      color: $text;
+    }
+  }
+
+  ul li.active > a {
+    color: $link;
+  }
+}
+
+// header: menu and search icons
+.page__header {
+  .menu-icon span {
+    background-color: rgba(255, 255, 255, 0.55);
+  }
+
+  .menu-icon:hover span {
+    background-color: #fff;
+  }
+
+  .search-icon {
+    color: rgba(255, 255, 255, 0.55);
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+// content
+.page {
+  color: $text;
+  background: $bg;
+
+  .zola-anchor {
+    color: $link;
+  }
+
+  .previous, .next {
+    color: #3a3a42;
+
+    &:hover {
+      color: $text;
+    }
+  }
+}
+
+.page__content {
+  a {
+    color: $link;
+
+    &:hover {
+      color: $link-hi;
+    }
+  }
+
+  h1, h2, h3, h4 {
+    color: #fff;
+  }
+
+  hr {
+    background-color: $border;
+  }
+
+  blockquote {
+    color: $muted;
+    border-left-color: $border;
+  }
+
+  code {
+    color: #e6e6eb;
+    background: $card2;
+  }
+
+  pre {
+    background: $card;
+    border: 1px solid $border;
+    border-radius: 4px;
+    color: #e6e6eb;
+  }
+
+  table {
+    border-color: $border;
+
+    td, thead th {
+      border-color: $border;
+    }
+
+    thead th {
+      background: $card;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #16161a;
+    }
+  }
+
+  img {
+    border-radius: 4px;
+  }
+}
+
+// search
+.search-container {
+  #search {
+    background-color: $card;
+    color: $text;
+    border-color: $border;
+
+    &:focus {
+      outline: none;
+      border-color: $accent;
+    }
+  }
+
+  .search-results__header {
+    color: $muted;
+  }
+}
