@@ -2,7 +2,7 @@
 base_url = "https://shamair28.github.io/OpenCAFDMap-docs"
 
 title = "Open CAFD Map"
-description = "OpenLauncher and Open CAFD Map: readable coding names in E-Sys, built from your own psdzdata."
+description = "A free, open-source launcher for E-Sys that brings BMW's coding names back, with Compare NCD, cheat sheets and FA / SVT auto-backup. Nothing is patched into E-Sys."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

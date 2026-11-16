@@ -4,8 +4,10 @@ weight = 1
 sort_by = "weight"
 +++
 
-**OpenLauncher** is a free launcher for modern versions of E-Sys. Its database has been brought up to date to cover
-most G- and F-chassis coding definitions and parameters, along with FA / VO option codes.
+**Open CAFD Map** is an open-source project that maps BMW's coding data back to readable names. **OpenLauncher** is
+its free, non-invasive launcher for modern versions of E-Sys: it brings those names into E-Sys without changing
+anything in your E-Sys install. The database has been brought up to date to cover most G- and F-chassis coding
+definitions and parameters, along with FA / VO option codes.
 
 It also adds a few quality-of-life features, all accessible from inside E-Sys:
 
@@ -29,6 +31,25 @@ but universal compatibility hasn't been guaranteed yet.
 ![OpenLauncher v3.0.0-beta.1: dark theme with a sidebar, the Launch card, status cards, Definitions and Updates](openlauncher-v3.0.0-beta.1.png)
 
 *OpenLauncher v3.0.0-beta.1 ([preview](@/updating/v3-preview.md))*
+
+## Who it's for
+
+OpenLauncher is for people who code with E-Sys and want it to show BMW's real names wherever they exist, plus an
+essential set of quality-of-life tools, free and unlocked.
+
+If you want one-click coding presets, guided fault-code help or service resets, paid suites are built for that.
+OpenLauncher doesn't try to be one.
+
+## Built to stay out of the way
+
+- **Layout-verified names:** BMW's names are only applied where a function's exact byte layout matches, so they never
+  land on bits that moved between software versions.
+- **Read-only renaming:** names are changed in E-Sys's tree in memory only. Nothing is patched into E-Sys, and the
+  renaming never changes coding data or anything E-Sys sends to the car.
+- **Versioned FA / SVT backups:** every FA and SVT read from the car is saved, and older copies are kept rather than
+  overwritten.
+- **Open and unlocked:** open source (MIT code, CC0 names). Everything runs on your PC, with no account, activation or
+  hardware lock. Updates are optional.
 
 [Download OpenLauncher](https://github.com/shamair28/OpenCAFDMap/releases/latest) ·
 [Getting started](@/getting-started/_index.md) ·
