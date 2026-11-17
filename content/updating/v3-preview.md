@@ -1,21 +1,22 @@
 +++
-title = "v3 preview"
+title = "v3 release candidate"
 weight = 3
 +++
 
-OpenLauncher v3 is in preview: a new dark design, **Launch options** and the [FA Helper](@/tools/fa-helper/index.md). It's published as a GitHub
+OpenLauncher v3 is a release candidate: a new dark design, **Launch options** and the [FA Helper](@/tools/fa-helper/index.md). It's
+feature-complete and only gets fixes until it ships as 3.0.0. Until then it's published as a GitHub
 [pre-release](https://github.com/shamair28/OpenCAFDMap/releases), so normal updates and setup keep installing the
 stable release until you choose to try it.
 
 ## Try it
 In OpenLauncher 2.3.4 or newer: **Updates → Try OpenLauncher v3**.
 
-- **Release install:** installs the newest v3 pre-release into the same folder. Your workspace and settings are kept,
+- **Release install:** installs the newest v3 release candidate into the same folder. Your workspace and settings are kept,
   and edited name files are backed up first.
 - **Git clone:** switches the clone to the `testing` branch. Uncommitted changes go to a git stash and local commits
   to a backup branch first.
 
-While you're on the preview, **Update launcher** offers newer previews, and the final v3 release once it's out.
+While you're on v3, **Update launcher** offers newer release candidates, and 3.0.0 once it's out.
 
 ## Go back
 In v3: **Updates → Back to stable**. It installs the latest stable release (or switches a git clone back to `main`).
@@ -37,4 +38,4 @@ next E-Sys start.
 
 ## Without OpenLauncher
 Download `OpenLauncher-Setup.bat` from the latest stable release and run it with the environment variable
-`OCM_SETUP_TAG` set to the preview's tag (for example `v3.0.0-beta.1`). See [Install](@/getting-started/install.md).
+`OCM_SETUP_TAG` set to the release's tag (for example `v3.0.0-rc.1`). See [Install](@/getting-started/install.md).

@@ -9,4 +9,4 @@ see [Definition updates](@/names/updates.md).
 
 - [Launcher updates](@/updating/launcher.md): release installs
 - [Git clones](@/updating/git-clones.md)
-- [v3 preview](@/updating/v3-preview.md): try the next OpenLauncher, and go back
+- [v3 release candidate](@/updating/v3-preview.md): try OpenLauncher v3, and go back

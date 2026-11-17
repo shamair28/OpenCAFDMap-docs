@@ -5,7 +5,7 @@ weight = 3
 
 | E-Sys | Java | Status |
 |---|---|---|
-| 25.10 | 11 | Tested: names, on-demand definitions, Compare NCD, Cheat Sheet, FA / SVT backup, FA Helper (v3 preview) |
+| 25.10 | 11 | Tested: names, on-demand definitions, Compare NCD, Cheat Sheet, FA / SVT backup, FA Helper (v3) |
 | 3.35.3 | 8 | Tested: names and on-demand definitions. The OpenLauncher section needs E-Sys 25.x's navigation bar. |
 | Java 15 or newer | | Can't be started this way (Java's JavaScript runner was removed). OpenLauncher says so. |
 

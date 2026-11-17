@@ -3,7 +3,7 @@ title = "FA Helper"
 weight = 4
 +++
 
-**v3 preview.** The FA Helper is part of the [v3 preview](@/updating/v3-preview.md).
+**v3.** The FA Helper is part of [OpenLauncher v3](@/updating/v3-preview.md), currently a release candidate.
 
 A vehicle order (FA / VO) editor inside E-Sys. Options (SALAPA), HO-words and E-words are tick lists with their
 titles, and every change is checked as you make it: is the option offered for this type key and build date, does it

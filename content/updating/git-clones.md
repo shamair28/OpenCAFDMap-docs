@@ -4,7 +4,7 @@ weight = 2
 +++
 
 A git clone follows `origin/main` instead of releases (or `origin/testing` while it runs the
-[v3 preview](@/updating/v3-preview.md)). Git must be on `PATH`.
+[v3 release candidate](@/updating/v3-preview.md)). Git must be on `PATH`.
 
 - **Update launcher** runs `git pull --ff-only`, then restarts OpenLauncher.
 - **Force update** also works when a plain pull can't run (local edits or commits). It first saves everything, then

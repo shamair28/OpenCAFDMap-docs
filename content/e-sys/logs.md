@@ -16,7 +16,7 @@ If E-Sys fails while starting, it closes instead of leaving the splash screen up
 with the last lines of `esys.log`.
 
 ## Ruling out OpenLauncher
-In the [v3 preview](@/updating/v3-preview.md), **Launch options → Clean boot** starts your `E-Sys.bat` exactly as it
+In [v3](@/updating/v3-preview.md), **Launch options → Clean boot** starts your `E-Sys.bat` exactly as it
 is, with none of OpenLauncher's features. If E-Sys misbehaves there too, the problem isn't OpenLauncher.
 
 Problems and questions: [open an issue](https://github.com/shamair28/OpenCAFDMap/issues) and attach `esys.log`.

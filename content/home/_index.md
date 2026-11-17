@@ -9,12 +9,14 @@ its free, non-invasive launcher for modern versions of E-Sys: it brings those na
 anything in your E-Sys install. The database has been brought up to date to cover most G- and F-chassis coding
 definitions and parameters, along with FA / VO option codes.
 
+**Downloads:** [![stable](https://img.shields.io/github/v/release/shamair28/OpenCAFDMap?label=stable)](https://github.com/shamair28/OpenCAFDMap/releases/latest) [![v3 release candidate](https://img.shields.io/github/v/release/shamair28/OpenCAFDMap?include_prereleases&label=v3%20RC&color=e5383b)](https://github.com/shamair28/OpenCAFDMap/releases?q=prerelease%3Atrue&expanded=true)
+
 It also adds a few quality-of-life features, all accessible from inside E-Sys:
 
 - **Compare NCD**: two NCDs side by side, with the differences highlighted
 - **Cheat Sheet**: cheat sheets right next to the FDL editor
 - **FA / VO and SVT auto-backup**: every FA and SVT you read from the car is saved automatically
-- **[FA Helper](@/tools/fa-helper/index.md)** (v3 preview): edit the vehicle order with every option checked against
+- **[FA Helper](@/tools/fa-helper/index.md)** (v3): edit the vehicle order with every option checked against
   the type key, conflicts and the CAFDs your psdzdata has, backed by 8,456 type keys that ship with OpenLauncher
 
 Where the database falls short, names and parameters are dynamically calculated to fill in the gaps.
@@ -28,11 +30,11 @@ but universal compatibility hasn't been guaranteed yet.
 
 ![OpenLauncher v2.3.4: paths, definitions, tools, folders and updates in one window](openlauncher-v2.3.4.png)
 
-*OpenLauncher v2.3.4 (current release)*
+*OpenLauncher v2.3 (current stable release)*
 
-![OpenLauncher v3.0.0-beta.1: dark theme with a sidebar, the Launch card, status cards, Definitions and Updates](openlauncher-v3.0.0-beta.1.png)
+![OpenLauncher v3.0.0-rc.1: dark theme with a sidebar, the Launch card, status cards, Definitions and Updates](openlauncher-v3.0.0-rc.1.png)
 
-*OpenLauncher v3.0.0-beta.1 ([preview](@/updating/v3-preview.md))*
+*OpenLauncher v3.0.0-rc.1 ([release candidate](@/updating/v3-preview.md))*
 
 ## Who it's for
 
