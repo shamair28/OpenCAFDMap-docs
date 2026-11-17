@@ -28,13 +28,13 @@ It <strong>should</strong> work on all Java 8 and Java 11 builds of E-Sys (<a hr
 but universal compatibility hasn't been guaranteed yet.
 </div>
 
-![OpenLauncher v2.3.4: paths, definitions, tools, folders and updates in one window](openlauncher-v2.3.4.png)
-
-*OpenLauncher v2.3 (current stable release)*
-
 ![OpenLauncher v3.0.0-rc.1: dark theme with a sidebar, the Launch card, status cards, Definitions and Updates](openlauncher-v3.0.0-rc.1.png)
 
 *OpenLauncher v3.0.0-rc.1 ([release candidate](@/updating/v3-preview.md))*
+
+![OpenLauncher v2.3.4: paths, definitions, tools, folders and updates in one window](openlauncher-v2.3.4.png)
+
+*OpenLauncher v2.3 (current stable release)*
 
 ## Who it's for
 
