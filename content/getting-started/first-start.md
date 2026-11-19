@@ -13,8 +13,8 @@ weight = 3
      show up.
    - A CAFD opened for the first time shows BMW's untrimmed names straight away. Within a few seconds its full
      definition is built in the background and the tree updates by itself. Later opens are instant.
-4. Optional: press **Build definitions** to decrypt and index all of your psdzdata's CAFDs for that series. It can
-   take a while. The [BimmerCode Backup Editor](@/backup-editor/_index.md) and the command-line tools need it;
-   E-Sys doesn't.
+4. You don't need **Build definitions**: E-Sys builds each CAFD's definition when you open it, and the
+   [BimmerCode Backup Editor](@/backup-editor/_index.md) builds definitions for just your backups' CAFDs. A full
+   build is only for the command-line search tools.
 
 After editing names, press **Apply names** (a few seconds), then reopen the CAFD in E-Sys.

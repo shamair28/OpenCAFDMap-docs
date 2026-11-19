@@ -12,18 +12,22 @@ weight = 2
 3. Double-click a value (or press "Stage selected value") to stage it.
    - A custom hex value needs "allow custom". It must have exactly the parameter's byte length; it's never padded.
    - Staged rows turn yellow.
-4. Add a note, then press **Write new backup**. The new `.cod` goes to `out\` and opens, so you can check it or stage
+4. Add a note, then press **Write new backup**. The new backup goes to `out\` and opens, so you can check it or stage
    more on top of it.
 
 Ctrl-click two backups and press **Diff** to see exactly which parameters differ.
 
-New files are named like BimmerCode's (`<ECU>-<VIN>-<current unix time>.cod`), so they show up as the newest backup
-for that ECU. Copy them to BimmerCode's backup folder on the phone and restore them in BimmerCode like any backup,
-after reading [Before you restore](@/backup-editor/restoring.md).
+New files are named like BimmerCode's. Copy them to BimmerCode's backup folder on the phone and restore them in
+BimmerCode like any backup, after reading [Before you restore](@/backup-editor/restoring.md).
+
+- **iOS:** `<ECU>-<VIN>-<current unix time>.cod`, so they show up as the newest backup for that ECU.
+- **Android:** the same name as the source (`<VIN>_<ECU>.dat`), in a folder per edit run (`out\<date>-<time>\`).
+  The name has no date, so copying it back replaces the backup with the same name on the phone: keep a copy of
+  the original.
 
 ## What the editor guarantees
-- The new `.cod` is a byte copy of the source backup with **only the edited coding bytes changed**: same size, same
-  plist structure, VIN, ECU and CAFD ids. Every write is re-read and checked, and discarded if anything else changed.
+- The new backup is a byte copy of the source with **only the edited coding bytes changed**: same size, same
+  structure, VIN, ECU and CAFD ids. Every write is re-read and checked, and discarded if anything else changed.
 - Bit fields are edited bit-exactly (other bits in the same byte are kept).
 - Multi-CAFD ECUs (BDC, ACSM, ...) are handled: every CAFD listed in the backup is used.
 - SYSTEM datagroups (the NCD signature) can't be edited.

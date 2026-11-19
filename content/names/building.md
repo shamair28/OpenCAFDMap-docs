@@ -8,10 +8,13 @@ When E-Sys opens a CAFD that has no definition yet, its definition is built in t
 See [How it works](@/e-sys/how-it-works.md).
 
 ## Build definitions
-Decrypts and indexes all of your psdzdata's CAFDs for the main series into the definition DB in your workspace. The
-first build can take half an hour or more. The [BimmerCode Backup Editor](@/backup-editor/_index.md) and the
-command-line search tools need it; E-Sys doesn't. OpenLauncher asks before it starts, and says where option titles
-will come from.
+**You don't need this.** E-Sys builds each CAFD's definition the first time you open it, and the
+[BimmerCode Backup Editor](@/backup-editor/setup.md#definitions-for-your-backups) builds definitions for just the
+CAFDs in your backups, usually in under a minute.
+
+A full build decrypts and indexes all of your psdzdata's CAFDs for the main series into the definition DB in your
+workspace, and can take half an hour or more. Only the command-line search tools need it. OpenLauncher asks before it
+starts, and says where option titles will come from.
 
 If **ISTA DiagDocDb** in [Settings](@/getting-started/settings.md) points to a file that can't be read (most often
 ISTA's own, encrypted DiagDocDb), the build says so and uses the option titles that ship with Open CAFD Map.

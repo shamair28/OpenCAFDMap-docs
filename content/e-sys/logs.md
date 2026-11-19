@@ -11,6 +11,7 @@ Logs are in `workspace\logs\` (OpenLauncher's **Logs** button opens the folder):
 | `agent.log` | Names and the tools inside E-Sys |
 | `runtime_defs.log` | Definitions built on demand when you open a CAFD |
 | `decrypt.log` | **Build definitions** |
+| `decrypt_backups.log` | The Backup Editor decrypting your backups' CAFDs |
 
 If E-Sys fails while starting, it closes instead of leaving the splash screen up, and OpenLauncher shows the reason
 with the last lines of `esys.log`.

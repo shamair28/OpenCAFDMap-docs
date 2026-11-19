@@ -7,8 +7,8 @@ sort_by = "weight"
 Prepare coding changes as **new** BimmerCode backups, then restore them from your phone with BimmerCode. Your real
 backups are never touched.
 
-It works with BimmerCode **iOS** backups (`.cod`, named `<ECU>-<VIN>-<unix time>.cod`). Android's backup format
-isn't supported yet. The editor needs the definitions: press **Build definitions** in OpenLauncher first.
+It works with BimmerCode backups from **iOS** (`<ECU>-<VIN>-<unix time>.cod`) and **Android** (`<VIN>_<ECU>.dat`).
+You don't need **Build definitions**: the editor builds definitions for just the CAFDs in your backups.
 
 - [Setup](@/backup-editor/setup.md)
 - [Using the editor](@/backup-editor/using/index.md)
