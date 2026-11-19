@@ -3,7 +3,7 @@ title = "Names and labels"
 weight = 1
 +++
 
-The same FLM2 NCD (CAFD 00006DF0) in E-Sys's FDL-Editor, first in stock E-Sys, then in E-Sys started from
+The same BDC NCD (CAFD 00007083) in E-Sys's FDL-Editor, first in stock E-Sys, then in E-Sys started from
 OpenLauncher:
 
 ![Stock E-Sys: every group, function and value is "."](before.png)
