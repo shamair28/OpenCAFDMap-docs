@@ -14,6 +14,7 @@ definitions\               contributed definition XMLs and cheat sheets   <- and
 definitions.json           definitions version + checksums (bumped by GitHub; used by the updater)
 data\                      FP criteria labels, SA option titles, ECU names, reference vehicles (contexts)
   fa\                      FA Helper: type keys and their options, option classes, option / HO-word / E-word titles
+  dtc\                     DTC: fault texts by module address + fault code, module titles
 esys\                      scripts that run inside E-Sys started by OpenLauncher
 ocm\                       Python tools
 docs\                      Backup Editor guide, examples

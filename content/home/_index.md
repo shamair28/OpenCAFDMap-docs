@@ -18,6 +18,7 @@ It also adds a few quality-of-life features, all accessible from inside E-Sys:
 - **FA / VO and SVT auto-backup**: every FA and SVT you read from the car is saved automatically
 - **[FA Helper](@/tools/fa-helper/index.md)** (v3): edit the vehicle order with every option checked against
   the type key, conflicts and the CAFDs your psdzdata has, backed by 8,456 type keys that ship with OpenLauncher
+- **[DTC](@/tools/dtc/index.md)** (v3): read the car's fault codes in E-Sys and clear them after coding
 
 Where the database falls short, names and parameters are dynamically calculated to fill in the gaps.
 

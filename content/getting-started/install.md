@@ -30,7 +30,7 @@ Setup reads these optional environment variables:
 |---|---|
 | `OCM_SETUP_DIR` | Install folder (default `%LOCALAPPDATA%\OpenCAFDMap`) |
 | `OCM_SETUP_ZIP` | Install from a downloaded `OpenCAFDMap.zip` instead of GitHub |
-| `OCM_SETUP_TAG` | Install that release (for example the v3 release candidate, `v3.0.0-rc.1`) instead of the latest |
+| `OCM_SETUP_TAG` | Install that release (for example the v3 release candidate, `v3.0.0-rc.4`) instead of the latest |
 | `OCM_SETUP_QUIET=1` | No questions (Python isn't installed automatically in this mode) |
 | `OCM_SETUP_NO_SHORTCUTS=1` | Don't create shortcuts |
 | `OCM_SETUP_NO_LAUNCH=1` | Don't start OpenLauncher at the end |
