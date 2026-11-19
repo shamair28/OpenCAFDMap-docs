@@ -52,7 +52,3 @@ same settings. You don't need to do anything. If E-Sys's connection can't be ope
 ## Fault texts
 The texts ship with Open CAFD Map in `data\dtc\`, built from ISTA, and update through **Check for updates** in
 OpenLauncher. Nothing from ISTA is needed on your PC.
-
-## Status
-DTC has been tested with FakeCar, not yet on a real car. Feedback from a real car is very welcome:
-[Feedback discussion](https://github.com/shamair28/OpenCAFDMap/discussions/1).
