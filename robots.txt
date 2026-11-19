@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://shamair28.github.io/OpenCAFDMap-docs/sitemap.xml
